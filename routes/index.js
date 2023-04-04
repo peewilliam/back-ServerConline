@@ -7,7 +7,7 @@ const { executeQuery } = require('../connect/mysql');
 
 router.get('/', async (req, res, next) => {
 
-  res.render('index', { title: 'Template App' });
+  res.render('index', { title: 'WebSockets ConLine' });
 });
 
 module.exports = router;

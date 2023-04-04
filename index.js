@@ -26,7 +26,7 @@ app.set('view engine', 'ejs');
 // Routes
 sockets(io)
 // app.use('/home', home);
-// app.use('/', index);
+app.use('/', index);
 
 // connection
 const port = process.env.PORT || 9001;
