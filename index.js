@@ -4,7 +4,7 @@ const http = require('http');
 const { Server } = require("socket.io");
 const path = require("path");
 const sockets = require('./routes/sockets');
-// const index = require('./routes/index');
+const index = require('./routes/index');
 
 
 // Middlewares
